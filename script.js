@@ -1,11 +1,22 @@
-window.addEventListener("scroll", function(){
-let reveals = document.querySelectorAll(".reveal");
-for(let i=0;i<reveals.length;i++){
-let windowHeight = window.innerHeight;
-let elementTop = reveals[i].getBoundingClientRect().top;
-let elementVisible = 100;
-if(elementTop < windowHeight - elementVisible){
-reveals[i].classList.add("active");
-}
-}
+// Smooth scroll effect
+document.querySelectorAll("a[href^='#']").forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
+
+// Simple reveal animation
+const cards = document.querySelectorAll(".card");
+
+window.addEventListener("scroll", () => {
+  cards.forEach(card => {
+    const cardTop = card.getBoundingClientRect().top;
+    if (cardTop < window.innerHeight - 100) {
+      card.style.opacity = "1";
+      card.style.transform = "translateY(0)";
+    }
+  });
 });
