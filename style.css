@@ -184,4 +184,70 @@ h2 {
 ul li {
     font-size: 18px;
 }
+/* Sticky Navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    background: #1e293b;
+    z-index: 1000;
+}
+
+/* Header Flex */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Dark Mode */
+.dark {
+    background-color: #0f172a;
+    color: white;
+}
+
+.dark .card {
+    background: #1e293b;
+    color: white;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 40px;
+    color: #2563eb;
+}
+
+/* Email Section */
+.email-section {
+    background: linear-gradient(135deg,#2563eb,#1e3a8a);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.email-section input {
+    padding: 12px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+}
+
+/* Scroll Reveal */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
 
