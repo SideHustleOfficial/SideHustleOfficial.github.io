@@ -261,18 +261,13 @@ section{padding:70px 5%;}
   header {
     display: flex;
     align-items: center;
-    padding: 15px 40px;
-    background: #0a0a0a;
+    padding: 10px 20px;
 }
 
 .logo {
-    width: 70px;   /* Change size if needed */
+    width: 100px;
     height: auto;
 }
 
-  .logo {
-    font-size: 1.3rem;
-  }
-}
 
 
