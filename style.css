@@ -258,16 +258,17 @@ section{padding:70px 5%;}
   .section-title {
     font-size: 1.6rem;
   }
-  header {
+.navbar {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    justify-content: flex-start;   /* Keeps logo on left */
+    padding: 10px 30px;
+    background-color: #0a0a0a;
 }
 
 .logo {
-    width: 100px;
+    width: 90px;   /* Small size */
     height: auto;
 }
-
 
 
