@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - SideHustleOfficial</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="blogs.js"></script>
+<script defer src="script.js"></script>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">SideHustleOfficial</div>
+<div class="menu-toggle">☰</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<section>
+<h2 class="section-title">Blog</h2>
+
+<div id="blog-list" class="cards"></div>
+<div id="blog-content" style="max-width:900px;margin:auto;"></div>
+
+</section>
+
+<footer>
+© 2026 SideHustleOfficial | Strategic Income Building
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("slug");
+
+  const listContainer = document.getElementById("blog-list");
+  const contentContainer = document.getElementById("blog-content");
+
+  if (slug) {
+    const blog = blogs.find(b => b.slug === slug);
+    if (blog) {
+      listContainer.style.display = "none";
+      contentContainer.innerHTML = `
+        <h2 class="section-title">${blog.title}</h2>
+        ${blog.content}
+      `;
+    }
+  } else {
+    blogs.forEach(blog => {
+      listContainer.innerHTML += `
+        <div class="card">
+          <h3>${blog.title}</h3>
+          <p>${blog.description}</p>
+          <a href="blog.html?slug=${blog.slug}">
+            <button style="margin-top:15px;">Read More</button>
+          </a>
+        </div>
+      `;
+    });
+  }
+});
+</script>
+
+</body>
+</html>
