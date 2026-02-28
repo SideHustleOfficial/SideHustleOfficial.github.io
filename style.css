@@ -258,8 +258,20 @@ section{padding:70px 5%;}
   .section-title {
     font-size: 1.6rem;
   }
+  header {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background: #0a0a0a;
+}
+
+.logo {
+    width: 150px;   /* Change size if needed */
+    height: auto;
+}
 
   .logo {
     font-size: 1.3rem;
   }
 }
+
