@@ -266,7 +266,7 @@ section{padding:70px 5%;}
 }
 
 .logo {
-    width: 150px;   /* Change size if needed */
+    width: 70px;   /* Change size if needed */
     height: auto;
 }
 
@@ -274,4 +274,5 @@ section{padding:70px 5%;}
     font-size: 1.3rem;
   }
 }
+
 
