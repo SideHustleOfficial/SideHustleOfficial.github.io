@@ -48,32 +48,32 @@ const blogs = [
     `
   },
   {
-  slug: "ai-freelancing-blueprint-2026",
-  title: "AI Freelancing Blueprint (2026): From Beginner to ₹50K/Month",
-  description: "How students can use AI tools to start freelancing fast.",
-  content: `
-    <p><strong>By VentureDecoded</strong></p>
+    slug: "ai-freelancing-blueprint-2026",
+    title: "AI Freelancing Blueprint (2026): From Beginner to ₹50K/Month",
+    description: "How students can use AI tools to start freelancing fast.",
+    content: `
+      <p><strong>By VentureDecoded</strong></p>
 
-    <h3>Why AI Freelancing Is Exploding</h3>
-    <p>Small businesses want automation but lack technical knowledge. 
-    This gap creates massive opportunity for students.</p>
+      <h3>Why AI Freelancing Is Exploding</h3>
+      <p>Small businesses want automation but lack technical knowledge. 
+      This gap creates massive opportunity for students.</p>
 
-    <h3>Step 1: Learn 3 Core Tools</h3>
-    <ul>
-      <li>ChatGPT workflow design</li>
-      <li>Notion automation</li>
-      <li>Zapier integration</li>
-    </ul>
+      <h3>Step 1: Learn 3 Core Tools</h3>
+      <ul>
+        <li>ChatGPT workflow design</li>
+        <li>Notion automation</li>
+        <li>Zapier integration</li>
+      </ul>
 
-    <h3>Step 2: Offer Simple Packages</h3>
-    <ul>
-      <li>₹5,000 – Basic automation setup</li>
-      <li>₹12,000 – Advanced workflow build</li>
-      <li>₹25,000 – Full AI system implementation</li>
-    </ul>
+      <h3>Step 2: Offer Simple Packages</h3>
+      <ul>
+        <li>₹5,000 – Basic automation setup</li>
+        <li>₹12,000 – Advanced workflow build</li>
+        <li>₹25,000 – Full AI system implementation</li>
+      </ul>
 
-    <h3>Final Advice</h3>
-    <p>Don’t sell AI tools. Sell business results. That’s the VentureDecoded mindset.</p>
+      <h3>Final Advice</h3>
+      <p>Don’t sell AI tools. Sell business results. That’s the VentureDecoded mindset.</p>
   `
 },
 {
