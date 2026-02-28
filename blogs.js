@@ -1,4 +1,5 @@
 const blogs = [
+  
   {
     slug: "side-hustle-roadmap-2026",
     title: "The Complete Side Hustle Guide (2026 Edition)",
@@ -46,4 +47,13 @@ const blogs = [
       <p>Build skill. Monetize skill. Create assets.</p>
     `
   }
+  {
+  slug: "new-blog",
+  title: "New Blog Title",
+  description: "Short preview text.",
+  content: `
+    <h3>Heading</h3>
+    <p>Your full content here...</p>
+  `
+}
 ];
