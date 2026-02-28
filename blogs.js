@@ -46,14 +46,138 @@ const blogs = [
       <h3>Final Advice</h3>
       <p>Build skill. Monetize skill. Create assets.</p>
     `
-  }
+  },
   {
-  slug: "new-blog",
-  title: "New Blog Title",
-  description: "Short preview text.",
+  slug: "ai-freelancing-blueprint-2026",
+  title: "AI Freelancing Blueprint (2026): From Beginner to ₹50K/Month",
+  description: "How students can use AI tools to start freelancing fast.",
   content: `
-    <h3>Heading</h3>
-    <p>Your full content here...</p>
+    <p><strong>By VentureDecoded</strong></p>
+
+    <h3>Why AI Freelancing Is Exploding</h3>
+    <p>Small businesses want automation but lack technical knowledge. 
+    This gap creates massive opportunity for students.</p>
+
+    <h3>Step 1: Learn 3 Core Tools</h3>
+    <ul>
+      <li>ChatGPT workflow design</li>
+      <li>Notion automation</li>
+      <li>Zapier integration</li>
+    </ul>
+
+    <h3>Step 2: Offer Simple Packages</h3>
+    <ul>
+      <li>₹5,000 – Basic automation setup</li>
+      <li>₹12,000 – Advanced workflow build</li>
+      <li>₹25,000 – Full AI system implementation</li>
+    </ul>
+
+    <h3>Final Advice</h3>
+    <p>Don’t sell AI tools. Sell business results. That’s the VentureDecoded mindset.</p>
+  `
+},
+  {
+  slug: "cybersecurity-side-income-guide",
+  title: "Cybersecurity Side Income Guide for Students",
+  description: "Turn cybersecurity knowledge into real paying clients.",
+  content: `
+    <p><strong>By VentureDecoded</strong></p>
+
+    <h3>Why Cybersecurity Is High Demand</h3>
+    <p>Data breaches are increasing. Small businesses need protection but cannot afford large firms.</p>
+
+    <h3>Beginner Services You Can Offer</h3>
+    <ul>
+      <li>Website vulnerability scans</li>
+      <li>Password security audits</li>
+      <li>Basic penetration testing reports</li>
+    </ul>
+
+    <h3>How To Get Clients</h3>
+    <p>Search local businesses, analyze their site, and send a short improvement report.</p>
+
+    <h3>Income Potential</h3>
+    <p>Even 4 clients per month at ₹5,000 = ₹20,000 monthly.</p>
+  `
+},
+  {
+  slug: "build-digital-assets-students",
+  title: "How Students Can Build Digital Assets That Pay Long-Term",
+  description: "Stop trading time. Start building assets.",
+  content: `
+    <p><strong>By VentureDecoded</strong></p>
+
+    <h3>What Is A Digital Asset?</h3>
+    <p>An asset is something that earns even when you're offline.</p>
+
+    <h3>Examples</h3>
+    <ul>
+      <li>Niche blog</li>
+      <li>YouTube channel</li>
+      <li>Digital templates</li>
+      <li>Online course</li>
+    </ul>
+
+    <h3>90-Day Asset Plan</h3>
+    <p>Focus on one platform. Publish consistently. Monetize after traction.</p>
+
+    <h3>Key Principle</h3>
+    <p>Income from effort. Wealth from assets.</p>
+  `
+},
+  {
+  slug: "student-personal-brand-strategy",
+  title: "Personal Branding Strategy for Students (2026)",
+  description: "Build authority before you graduate.",
+  content: `
+    <p><strong>By VentureDecoded</strong></p>
+
+    <h3>Why Personal Brand Matters</h3>
+    <p>Clients trust people, not resumes.</p>
+
+    <h3>Platform Strategy</h3>
+    <ul>
+      <li>LinkedIn for authority</li>
+      <li>Instagram for reach</li>
+      <li>YouTube for depth</li>
+    </ul>
+
+    <h3>Content Formula</h3>
+    <ul>
+      <li>Teach what you learn</li>
+      <li>Share proof of work</li>
+      <li>Break down case studies</li>
+    </ul>
+
+    <h3>Result</h3>
+    <p>Opportunities start coming to you.</p>
+  `
+},
+  {
+  slug: "90-day-income-plan-students",
+  title: "The 90-Day Student Income Execution Plan",
+  description: "A practical roadmap to your first ₹25K online.",
+  content: `
+    <p><strong>By VentureDecoded</strong></p>
+
+    <h3>Days 1-30: Skill Building</h3>
+    <p>Choose one high-income skill and practice daily.</p>
+
+    <h3>Days 31-60: Client Outreach</h3>
+    <ul>
+      <li>Send 20 outreach messages daily</li>
+      <li>Offer small starter packages</li>
+    </ul>
+
+    <h3>Days 61-90: Scale & Optimize</h3>
+    <ul>
+      <li>Increase pricing</li>
+      <li>Collect testimonials</li>
+      <li>Improve workflow with AI</li>
+    </ul>
+
+    <h3>Outcome</h3>
+    <p>₹20K–₹50K monthly potential if executed seriously.</p>
   `
 }
 ];
