@@ -258,16 +258,16 @@ section{padding:70px 5%;}
   .section-title {
     font-size: 1.6rem;
   }
-.navbar {
+header {
     display: flex;
+    justify-content: flex-start;  /* left side */
     align-items: center;
-    padding: 8px 40px;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    background-color: #111;
 }
 
 .logo {
-    width: 80px;
+    width: 80px;   /* makes it small */
+    height: auto;
 }
-
 
