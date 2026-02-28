@@ -76,7 +76,7 @@ const blogs = [
     <p>Don’t sell AI tools. Sell business results. That’s the VentureDecoded mindset.</p>
   `
 },
-  {
+{
   slug: "cybersecurity-side-income-guide",
   title: "Cybersecurity Side Income Guide for Students",
   description: "Turn cybersecurity knowledge into real paying clients.",
@@ -100,7 +100,7 @@ const blogs = [
     <p>Even 4 clients per month at ₹5,000 = ₹20,000 monthly.</p>
   `
 },
-  {
+{
   slug: "build-digital-assets-students",
   title: "How Students Can Build Digital Assets That Pay Long-Term",
   description: "Stop trading time. Start building assets.",
@@ -125,7 +125,7 @@ const blogs = [
     <p>Income from effort. Wealth from assets.</p>
   `
 },
-  {
+{
   slug: "student-personal-brand-strategy",
   title: "Personal Branding Strategy for Students (2026)",
   description: "Build authority before you graduate.",
@@ -153,7 +153,7 @@ const blogs = [
     <p>Opportunities start coming to you.</p>
   `
 },
-  {
+{
   slug: "90-day-income-plan-students",
   title: "The 90-Day Student Income Execution Plan",
   description: "A practical roadmap to your first ₹25K online.",
